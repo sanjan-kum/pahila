@@ -1,0 +1,14 @@
+name: 
+
+on: 
+  push: 
+      branches: [ main ]
+
+jobs:
+  new:
+    runs-on: windows-2019
+
+    steps:
+      - name: Greetings
+        run: echo "Welcome to CD"
+        
